@@ -12,7 +12,7 @@ import {
 
 type InputElementExtraProps = Pick<
     ElementProps<HTMLInputElement>,
-    'placeholder'
+    'placeholder' | 'type'
 >;
 
 export type StyledInputProps = {
